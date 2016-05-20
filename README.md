@@ -1,4 +1,6 @@
 # hello-world
-My first repository 
+My first repository
 
 I'm new to github
+
+i just used atom
