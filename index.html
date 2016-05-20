@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>OteK</title>
+        <link rel="icon" href="img/logo/title.ico" type="image/x-icon">
+
+        <!--GOOGLE Fonte-->
+        <link href="https://fonts.googleapis.com/css?family=Patua+One|Josefin+Sans:400,600" rel="stylesheet" type="text/css">
+
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
+        <script src="js/modernizr.custom.js"></script>
+        <!-- Animation -->
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+
+        <!-- Animation for Link as quick inquiry -->
+        <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/component.css" />
+
+        <!-- Responsive styles-->
+
+        <!-- Animation for Link as quick inquiry -->
+        <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/component.css" />
+
+        <!-- Responsive styles-->
+
+        <!--Profile slider styles-->
+        <link rel="stylesheet" href="css/jquery-responsiveGallery.css">
+
+        <!-- Profile slider function-->
+
+
+        <script type="text/javascript" src="lib/modernizr.custom.js"></script>
+        <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+        <script type="text/javascript" src="src/jquery.responsiveGallery.js"></script>
+        <script type="text/javascript">
+            $(function () {
+                $('.responsiveGallery-wrapper').responsiveGallery({
+                    animatDuration: 400, // ms
+                    $btn_prev: $('.responsiveGallery-btn_prev'),
+                    $btn_next: $('.responsiveGallery-btn_next')
+                });
+            });
+        </script>
+        <style>
+
+            html, body {
+                max-width: 100%;
+            }
+
+
+
+
+        </style>
+
+
+    </head>
+    <body id="toTop">
+
+
+        <!-------------------- codes for the heading including the logo and the Navigaters-------------------------------------------------------->
+
+        <nav id="tf-menu" class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="logo" href="index.html"><img alt="" src="img/logo/logo.png" class="logo-img"></a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#toTop" class="page-scroll">Home</a></li>
+                        <li><a href="#tf-about" class="page-scroll">About</a></li>
+                        <li><a href="#tf-team" class="page-scroll">Team</a></li>
+                        <li><a href="#our-work" class="page-scroll"> Our Work</a></li>
+                        <li><a href="#features" class="page-scroll">Services</a></li>
+
+                        <li><a href="#contact" class="page-scroll">Contact</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+
+
+        <!---------------------------------- end codes for the heading including the logo and the Navigaters---------------------------------------------->
+
+
+
+
+        <!--------------------------------------------- Codes for the Slide Show And Home Page------------------------------------------------------------------->		
+        <!-- main slider start -->
+        <div class="wrapper"> 
+
+            <div id="carousel1" class="carousel slide main" data-ride="carousel">
+
+
+
+                <!--                <ol class="carousel-indicators">
+                                    <li data-target="#carousel1" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carousel1" data-slide-to="1"></li>
+                                    <li data-target="#carousel1" data-slide-to="2"></li>
+                                </ol>-->
+
+
+                <div class="carousel-inner " role="listbox">
+
+                    <div class="item active">
+                        <div class="carousel-caption">
+                            <h2>Header</h2>
+                            <h3>Some Text</h3>
+                            <nav class="color-1 cl-effect-13 cl-effect-20 ">
+                                <a href="#contact"><span data-hover="Quick Inquiry">Quick Inquiry</span></a>
+                            </nav>
+                        </div>
+                        <img src="img/slider/bg11.jpg" alt="First slide image" class="center-block slider-img">
+
+                    </div>
+                    <div class="item">
+                        <div class="carousel-caption">
+                            <h2 style="z-index: 1000;">Header</h2>
+                            <h3 style="z-index: 1000;">Some Text</h3>
+                            <nav class="color-1 cl-effect-13 cl-effect-20 ">
+                                <a href="#contact"><span data-hover="Quick Inquiry">Quick Inquiry</span></a>
+                            </nav>
+                        </div>
+                        <img src="img/slider/bg7.jpg" alt="Second slide image" class="center-block slider-img">
+
+                    </div>
+                    <div class="item">
+                        <div class="carousel-caption">
+                            <h2>Header</h2>
+                            <h3>Some Text</h3>
+                            <nav class="color-1 cl-effect-13 cl-effect-20 ">
+                                <a href="#contact"><span data-hover="Quick Inquiry">Quick Inquiry</span></a>
+                            </nav>
+                        </div>
+                        <img src="img/slider/bg22.jpg" alt="Third slide image" class="center-block slider-img">
+
+                    </div>
+                </div>
+                <div style="position: relative; z-index: 20;" >
+                    <div style="position: relative; z-index: 30;">
+                        <img src="img/slider/circle.png" class="circle-slider img-responsive" style="z-index: 39;" alt="Placeholder image">
+                    </div>
+                </div>
+<!--                <a class="left carousel-control"  href="#carousel1" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left" style="color: #ed1c3b; opacity: 0.5" aria-hidden="true"></span><span class="sr-only">Previous</span></a><a class="right carousel-control" href="#carousel1" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right" style="color: #ed1c3b ; opacity: 0.5" aria-hidden="true"></span><span class="sr-only">Next</span></a>-->
+
+
+
+
+            </div>
+
+        </div>
+        <!---------------------------------------------end Codes for the Slide Show And Home Page--------------------------------------------------------------------->	
+
+
+
+        <!---------------------------------------------Codes for the website Content-------------------------------------------------------------------------------------------------->	
+
+        <!----------------- About Us Page
+          ==========================================-->
+
+        <div id="tf-about">
+
+            <div class="section-title center owl-text">
+
+
+                <h2><center >About us</center></h2>
+                <div class="line">
+
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="img/22.png" alt="" class="img-responsive">
+                    </div>
+                    <div class="col-md-6">
+                        <center>
+                            <em style="color:black"> <p class="intro owl-text">
+                                    OteK is a small web design company, besides being a web designers we also provide different IT support services. Quality and creativity, enhanced by the latest technologies, are the key areas of our web design services.
+                                    Our team of designers work together seamlessly to fulfill your needs so it goes with your business objectives. The web design process that we follow begins with valuable inputs from our clients, your website goals are important to us, and we strive to create just the right design for your needs.
+                                    Finding the right solutions for each project is our priority.</p></em>
+                            <ul class="about-list owl-text">
+                                <li>
+
+                                    <strong>- Mission - </strong> <br> <em>We deliver uniqueness and quality</em>
+                                </li>
+                                <li>
+
+                                    <strong>- Skills -</strong> <br><em>Delivering fast and excellent results</em>
+                                </li>
+                                <li>
+
+                                    <strong>- Clients -</strong> <br> <em>Satisfied clients thanks to our experience</em>
+                                </li>
+                            </ul>
+                        </center>
+
+                    </div><!-- end col-md-6-->
+                </div><!-- end row-->
+            </div><!-- end container-->
+        </div><!-- end tf-about-->
+
+
+
+        <!-- Features -->
+        <section>
+
+            <div class="features" id="features">
+                <div class="container">
+                    <center>
+                        <h2>Our Services</h2>
+
+                        <div class="line">
+                            <hr>
+                        </div>
+                        <!--
+                                                        <h2>We do what we <span>love</span> . We <span>love</span>  what we do.</h2>
+                                                        <h3>What we <span>Love To Do</span>.</h3>
+                                                        <p>Be sure that we know to do a lot.</p> -->
+                    </center>
+                    <br>
+                    <br>
+                    <div class="feature-grid">
+                        <div class="col-md-4 col-sm-6 feature1 slideanim">
+                            <div class="row features-item sans-shadow text-center">
+                                <div class="features-icon">
+                                    <img src="img/f1.png" alt="Cubicle">
+                                </div>
+                                <div class="features-info">
+                                    <h4>Responsive Website Design</h4>
+                                    <p> Infusing creativity in every website is the core competency of all website designing services. We make sure that clients get more than what they expect from us. Though, our experts are ready to serve all types of business organizations, but, what has given us recognition in the business scenario is associating with small business to uplift their web presence. 
+                                        Giving them a new look.<!-- with utmost care has enabled web developers India to perform efficiently in the business-->
+                                    </p>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div><!-- //Row -->
+                        </div>
+                        <div class="col-md-4 col-sm-6 feature1 slideanim">
+                            <div class="row features-item sans-shadow text-center">
+                                <div class="features-icon">
+                                    <img src="img/f2.png" alt="Cubicle">
+                                </div>
+                                <div class="features-info">
+                                    <h4>Mobile Application Development</h4>
+                                    <p>	The use of the Android platform is booming and growing at the rate of an impressive 32%. It is commented by industry experts, that this growth is because of the open source nature of the operating system. 
+                                        with some distinct advantages, apps developed for the Android OS are widely used with great rates on user friendliness, and attraction.
+                                    </p>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div><!-- //Row -->
+                        </div>
+                        <div class="col-md-4 col-sm-6 feature1 slideanim">
+                            <div class="row features-item sans-shadow text-center">
+                                <div class="features-icon">
+                                    <img src="img/f3.png" alt="Cubicle">
+                                </div>
+                                <div class="features-info">
+                                    <h4>E-Commerce Development</h4>
+                                    <p>	As e-Commerce market is developing, our intention is to develop a top-quality e-Commerce website in the most effective manner. 
+                                        Our e-Commerce solutions are easy and processed by a secure management system. 
+                                        Our e-commerce website developers are experienced in designing elegant GUI design & developing robust backend management functionality.
+                                    </p>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div><!-- //Row -->
+                        </div>
+                        <div class="col-md-4 col-sm-6 feature1 slideanim">
+                            <div class="row features-item sans-shadow text-center">
+                                <div class="features-icon">
+                                    <img src="img/f4.png" alt="Cubicle">
+                                </div> 
+                                <div class="features-info">
+                                    <h4>CMS Development</h4>
+                                    <p> creates advanced content management system for your large website by excellent team of developers. Without any technical training you can access your website easily with help of customized content management system.
+                                        Codetoils provides a platform independent and flexible CMS web development services for your website where you can manage website
+                                    </p>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div><!-- //Row -->
+                        </div>
+                        <div class="col-md-4 col-sm-6 feature1 slideanim">
+                            <div class="row features-item sans-shadow text-center">
+                                <div class="features-icon">
+                                    <img src="img/f5.png" alt="Cubicle">
+                                </div>
+                                <div class="features-info">
+                                    <h4>Web Portal Development</h4>
+                                    <p> It is always essential to understand the business needs and goals of an organization before developing a web portal for the same and hence, our web portal developers study the project effectively, 
+                                        so that they can offer maximum advantages to the clients by applying all the logical and exceptional elements to it.
+                                    </p>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div><!-- //Row -->
+                        </div>
+                        <div class="col-md-4 col-sm-6 feature1 slideanim">
+                            <div class="row features-item sans-shadow text-center">
+                                <div class="features-icon">
+                                    <img src="img/f6.png" alt="Cubicle">
+                                </div>
+                                <div class="features-info">
+                                    <h4>Brochures and Business Card Design</h4>
+                                    <p> We offer an affordable & professional business card and brochures design service.Quality is important as this will often be the first point of reference for potential clients and is a valuable networking tool. 
+                                        <!--Our design service includes unlimited revisions so we will work on your business card until you are happy with the layout.-->
+                                        With online proofing you can check that you are happy with the design before we send your cards to print.
+                                    </p>
+                                </div>
+                                <div class="clearfix"></div>
+                            </div><!-- //Row -->
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+        <!-- //Features -->
+
+        <!----------------------Profile slider--------------
+        ==================================-->
+
+        <div id="our-work" class="section-title center">
+            <h2><center>Some of our work</center></h2>
+            <div class="line">
+                <hr>
+            </div>
+        </div>
+
+        <div class="w-gallery" >
+            <section id="responsiveGallery-container" style="" class="responsiveGallery-container">
+
+                <a class="responsiveGallery-btn responsiveGallery-btn_prev" href="javascript:void(0);"></a>
+                <a class="responsiveGallery-btn responsiveGallery-btn_next" href="javascript:void(0);"></a>
+
+                <ul class="responsiveGallery-wrapper">
+                    <li class="responsiveGallery-item"> 
+                        <a href="#" class="responsivGallery-link">
+                            <img src="assets\pics\efficiency.jpg" height="320" width="320" alt="" class="responsivGallery-pic">
+                        </a>
+
+                    </li>
+
+                    <li class="responsiveGallery-item"> 
+                        <a href="#" class="responsivGallery-link">
+                            <img src="assets\pics\orange.jpg" height="320" width="320" alt="" class="responsivGallery-pic">
+                        </a>
+
+                    </li>
+
+                    <li class="responsiveGallery-item"> 
+                        <a href="#" class="responsivGallery-link">
+                            <img src="assets\pics\petrogolf.jpg" height="320" width="320" alt="" class="responsivGallery-pic">
+                        </a>
+
+                    </li>
+
+                    <li class="responsiveGallery-item"> 
+                        <a href="#" class="responsivGallery-link">
+                            <img src="assets\pics\tedx.jpg" height="320" width="320" alt="" class="responsivGallery-pic">
+                        </a>
+
+                    </li>
+
+                    <li class="responsiveGallery-item"> 
+                        <a href="#" class="responsivGallery-link">
+                            <img src="assets\pics\consulting.jpg" height="320" width="320" alt="" class="responsivGallery-pic">
+                        </a>
+
+                    </li>
+
+
+
+                    <li class="responsiveGallery-item"> 
+                        <a href="#" class="responsivGallery-link">
+                            <img src="assets\pics\shopping.jpg" height="320" width="320" alt="" class="responsivGallery-pic">
+                        </a>
+
+                    </li>
+                </ul>
+            </section>
+        </div>
+
+        <!-------------------closing profile slider ------------------------------->
+
+        <!-- Team Page
+            ==========================================-->
+        <div id="tf-team" class="text-center">
+            <div class="container">
+                <div class="section-title center">
+
+                    <h2>Meet <strong>our team</strong></h2>
+                    <div class="line">
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <div class="carousel slide portfolio-carousel" id="">
+                            <div class="carousel-inner">
+                                <div class="item  active"> 
+                                    <div class="thumbnail">
+                                        <div class="caption">
+                                            <div class="caption-content">
+                                                <span>
+                                                    <a data-rel="prettyPhoto" href="img/team/02.jpg" alt="Kamal" class="img-circle team-img">
+                                                        <i class="fa fa-search"></i>              
+                                                    </a>
+                                                    <a href="#tf-home" ><i class="fa fa-link"></i></a> 	
+                                                </span>
+                                                <h3 class="O-K">Kamal Alhamdani</h3>
+                                                <p style="color:gray">Web Designer</p>
+                                                <p style="width:500px; height:50px; color:white">I am Working to fulfill your needs so it goes with your business objectives. Finding the right solutions for each project is my first priority. </p>
+                                                <p style="color:gray"> 733848888 </p>
+                                                <p> kamal@otek-solutions.com </p>
+                                            </div><!-- end caption-content-->
+                                        </div><!-- end caption-->
+                                        <img src="img/team/1.jpg" alt="" class="img-circle team-img">
+                                    </div><!-- end thumbnail-->			
+                                </div><!--/ Item end -->
+                            </div><!-- Carousel inner end -->	
+                        </div><!-- end carosel slide -->
+                    </div><!-- end the col-xs-12 col-md-6-->
+
+                    <div class="col-xs-12 col-md-6">
+                        <div class="carousel slide portfolio-carousel" id="">
+                            <div class="carousel-inner">
+                                <div class="item  active"> 
+                                    <div class="thumbnail">
+                                        <div class="caption">
+                                            <div class="caption-content">
+                                                <span>
+                                                    <a data-rel="prettyPhoto" href="img/team/02.jpg" alt="Osama" class="img-circle team-img">
+                                                        <i class="fa fa-search"></i>              
+                                                    </a>
+                                                    <a href="#tf-home" ><i class="fa fa-link"></i></a> 	
+                                                </span>
+                                                <h3 class="O-K">Osama Noman</h3>
+                                                <p style="color:gray">Web Designer</p>
+                                                <p style="width:500px; height:50px; color:white">I am Working to fulfill your needs so it goes with your business objectives. Finding the right solutions for each project is my first priority. </p>
+                                                <p style="color:gray"> 773420200</p>
+                                                <p> osama.noman@gmail.com  </p>
+                                            </div><!-- end caption-content-->
+                                        </div><!-- end caption-->
+                                        <img src="img/team/02.jpg" alt="" class="img-circle team-img">
+                                    </div><!-- end thumbnail-->			
+                                </div><!--/ Item end -->
+                            </div><!-- Carousel inner end -->	
+                        </div><!-- end carosel slide -->
+                    </div><!-- end the col-xs-12 col-md-6-->			       
+                </div><!-- end row-->
+            </div><!-- end container-->
+        </div><!-- end team id page -->
+
+
+        <!-- contact -->
+        <section id="contact">
+            <!--<div id="google-map" class="wow fadeIn" data-latitude="52.365629" data-longitude="4.871331" data-wow-duration="1000ms" data-wow-delay="400ms"></div> -->
+            <div id="contact-us" class="parallax">
+                <div class="container">
+                    <div class="row">
+                        <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+                            <h2>Contact Us</h2><br>
+                            <p>Dear All, Feel free to send us your feedback and for more information about us and if you would like to keep up with our services. please send us wahtever you need</p><br>
+                        </div>
+                    </div>
+                    <div class="contact-form wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <form id="main-contact-form" name="contact-form" method="post" action="#">
+                                    <div class="row  wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <input type="text" name="name" class="form-control" placeholder="Name" required="required">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <input type="email" name="email" class="form-control" placeholder="Email Address" required="required">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" name="subject" class="form-control" placeholder="Subject" required="required">
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea name="message" id="message" class="form-control" rows="4" placeholder="Enter your message" required="required"></textarea>
+                                    </div>                        
+                                    <div class="form-group">
+                                        <button type="submit" class="btn-submit">Send Now</button>
+                                    </div>
+                                </form>   
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="contact-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+                                    <p class="contact-color">For More Information Please Contact Us</p>
+                                    <ul class="address">
+
+                                        <li><i class="fa fa-phone"></i> <span class="contact-color"> Mobile:</span> +967 733848888  </li>
+                                        <li><i class="fa fa-envelope"></i> <span class="contact-color"> Email:</span><a href="mailto:someone@yoursite.com"> info@otekit.com</a></li>
+
+                                    </ul>
+                                </div>                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>        
+        </section><!--/#contact-->
+
+
+
+        <!---------------------------------------------End Codes for the website Content------------------------------------------------------------------------------------------------>
+
+
+
+        <!---------------------------------------------Codes for the Footer------------------------------------------------------------------------------------------------>	
+        <footer id="footer">
+            <div class="footer-top wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+                <div class="container text-center">
+
+
+                    <div class="social-icons">
+                        <ul>
+                            <li><a class="envelope" href="#"><i class="fa fa-envelope"></i></a></li>
+                            <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li> 
+                            <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                            <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a class="tumblr" href="#"><i class="fa fa-tumblr-square"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="copy">	
+                        <br><b> Copyright &copy; 2015  Our Website  Design By: </b>
+
+
+
+
+                    </div><!-- end copy div-->
+                    <a href="http//www.otek-solutions.com">
+                        <img src="img/logo/footer.png" alt="">
+                    </a>
+
+                </div>
+            </div>
+        </footer>
+
+        <!-- ---------------- changed-------------	
+                <img src="img/foot.png" style="clear:both"  class="img-responsive"> </img>
+                        <div id="footer-wrap">
+                                <div class="copy">
+                                        <br> <p>Copyright &copy; 2015  Our Website  Design By: </p>
+                                         <a href="http//www.otek-solution.com">
+                                                <img src="img/OteK.png" style="width:50px;height:50px;padding-bottom:15px">
+                                        </a>
+                                 
+                                </div>
+                                        
+                        </div><!-- end footer-wrap-->
+        <!-- ---------------- changed------------->	
+
+        <!---------------------------------------------End Codes for the Footer------------------------------------------------------------------------------------------------>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <!-- Javascripts
+================================================== -->
+        <script type="text/javascript" src="js/SmoothScroll.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+
+        <!----------Profile slider JQuery------------->
+        <script src="lib/modernizr.custom.js"></script>
+        <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+        <script src="src/jquery.responsiveGallery.js"></script>
+
+
+    </body>
+</html>
+<script src="../../dist/js/bootstrap.min.js"></script>  
+<script>
+            $('.carousel').carousel({
+                interval: 10000
+            });
+</script>      
+<script src="js/bootstrap.js"></script>
